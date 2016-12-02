@@ -1,37 +1,42 @@
-.navBar {
-  display: inline-block;
-  float: right;
-  vertical-align: middle;
-  background-color: white;
-  padding-top: 18px;
-  padding-bottom: 18px;
-
+* {
+box-sizing: border-box;
 }
-
-.navBar__image {
-  width: 50px;
+.body {
+  background-color: grey;
+  margin: 0px;
+}
+.navBar {
+  background-color: white;
   display: inline-block;
+  height: 45px;
   vertical-align: middle;
+  width: 100%;
+}
+.navBar__image {
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: middle;
+  width: 90px;
 }
 .navBar__search {
-  display: inline;
-  vertical-align: top;
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
 }
 .navBar__user {
-  display: inline-block;
-  /*position: absolute;/
-  /*right: 0px;*/
-  float: right;
-  margin-top: 5px;
-  margin-right: 20px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
   border-radius: 100px;
+  display: inline-block;
   vertical-align: top;
+  width: 30px;
 }
 .navBar__upload {
-  position: inherit;
-  vertical-align: bottom;
   margin-right: 10px;
+  position: inherit;
+  vertical-align: sub;
 }
+.navBar__userinfo {
+  float: right;
+}
+/*.body {
+  background-color: grey;
+}*/
