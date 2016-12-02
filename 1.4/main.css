@@ -1,0 +1,37 @@
+.navBar {
+  display: inline-block;
+  float: right;
+  vertical-align: middle;
+  background-color: white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+}
+
+.navBar__image {
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.navBar__search {
+  display: inline;
+  vertical-align: top;
+}
+.navBar__user {
+  display: inline-block;
+  /*position: absolute;/
+  /*right: 0px;*/
+  float: right;
+  margin-top: 5px;
+  margin-right: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+  vertical-align: top;
+}
+.navBar__upload {
+  position: inherit;
+  vertical-align: bottom;
+  margin-right: 10px;
+}
