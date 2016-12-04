@@ -1,41 +1,65 @@
-* {
+/** {
 box-sizing: border-box;
-}
+}*/
 .body {
-  background-color: grey;
+  background-color: rgb(241,241,241);
   margin: 0px;
+  width: 100%;
 }
 .navBar {
-  background-color: white;
-  display: inline-block;
-  height: 45px;
-  vertical-align: middle;
+  background-color: rgb(255,255,255);
+  /*display: block;*/
+  height: 36px;
+  /*vertical-align: middle;*/
+  padding: 9px 20px;
   width: 100%;
 }
 .navBar__image {
-  display: inline-block;
-  margin-left: 20px;
-  vertical-align: middle;
-  width: 90px;
+  height: 30px;
+  width: 65px;
 }
 .navBar__search {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
+  /*height: 30px;*/
+}
+.navBar__form {
+  height: 30px;
+  display: inline-block;
+  float: left;
   width: 500px;
+}
+.navBar__submit {
+  border: solid 1px;
+  border-color: rgb(224,224,224);
+  border-radius: 0px 2px 2px 0px;
+  background-color: rgb(248,248,248);
+  display: inline-block;
+  height: 36px;
+  width: 60px;
+  padding: 11px 6px;
 }
 .navBar__user {
   border-radius: 100px;
   display: inline-block;
-  vertical-align: top;
+  height: 30px;
+  margin-right: 40px;
+  vertical-align: middle;
   width: 30px;
 }
 .navBar__upload {
   margin-right: 10px;
+  border: solid 1px;
+  background-color: rgb(248,248,248);
+  border-color: rgb(224,224,224);
+  border-radius: 2px;
+  height: 36px;
   position: inherit;
-  vertical-align: sub;
+  /*vertical-align: sub;*/
 }
 .navBar__userinfo {
   float: right;
+  vertical-align: middle;
 }
 /*.body {
   background-color: grey;
