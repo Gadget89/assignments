@@ -15,8 +15,8 @@ box-sizing: border-box;
   width: 100%;
 }
 .navBar__image {
-  height: 30px;
-  width: 65px;
+  height: 40px;
+  width: 80px;
 }
 .navBar__search {
   display: inline-block;
