@@ -21,6 +21,7 @@ box-sizing: border-box;
 .navBar__search {
   display: inline-block;
   vertical-align: top;
+  margin-left: 5%;
   /*height: 30px;*/
 }
 .navBar__form {
@@ -55,12 +56,14 @@ box-sizing: border-box;
   border-radius: 2px;
   height: 36px;
   position: inherit;
-  /*vertical-align: sub;*/
 }
 .navBar__userinfo {
   float: right;
   vertical-align: middle;
 }
-/*.body {
-  background-color: grey;
-}*/
+.video__element {
+  height: 460px;
+  margin-left: 7%;
+  padding: 8px;
+  width: 800px;
+}
