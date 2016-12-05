@@ -3,6 +3,7 @@ box-sizing: border-box;
 }*/
 .body {
   background-color: rgb(241,241,241);
+  display: inline-block;
   margin: 0px;
   width: 100%;
   font-family: sans-serif;
@@ -170,4 +171,17 @@ padding-top: 6px;
   text-decoration: none;
   display: inline-block;
   padding-top: 10px;
+}
+.aside__container {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10%;
+  width: 30%;
+  vertical-align: top;
+  height: 1000px;
+}
+.suggestions {
+
 }
