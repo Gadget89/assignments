@@ -91,11 +91,11 @@ box-sizing: border-box;
 }
 .underlineThis {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   border-bottom: solid;
   border-width: 1px;
   color: rgb(217, 217,217);
-  padding-bottom: 10px;
+  padding-bottom: 2px;
 }
 .uploader__pic {
   display: inline-block;
@@ -132,21 +132,42 @@ box-sizing: border-box;
   padding: 4px 8px;
 }
 .video__views {
+  border-bottom: solid;
+  border-color: rgb(55, 122, 192);
+  border-width: thin;
   color: rgb(128, 128, 128);
   float: right;
   font-weight: normal;
   font-size: 11px;
   margin: 0;
+  padding-bottom: 14px;
 }
 .uploader__aside {
   display: inline-block;
-  width: 89%;
+  width: 90%;
 }
 .share__buttons {
 display: inline-block;;
 width: 100%;
+padding-top: 6px;
 }
 .likes {
   display: inline-block;
   float: right;
+}
+.h2__text {
+  padding: 0px;
+}
+.video__info {
+  background-color: rgb(255, 255, 255);
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 10px 5px 10px 5px;
+}
+.show__more {
+  color: rgb(128, 128, 128);
+  margin-left: 40%;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 10px;
 }
