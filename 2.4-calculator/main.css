@@ -1,0 +1,16 @@
+.body{
+  /*display: inline-block;
+  background-color: black;
+  width: 50%;*/
+}
+.darkButton{
+  background-color: grey;
+  color: white;
+  font-size: 14px;
+}
+.lightButton{
+  background-color: rgb(155, 189, 133);
+  color: white;
+  font-size: 14px;
+
+}
