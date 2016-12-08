@@ -1,16 +1,39 @@
-.body{
-  /*display: inline-block;
+/*.body{
+  display: inline-block;
   background-color: black;
-  width: 50%;*/
+  width: 50%;
+}*/
+.bodyDetails{
+  display: inline-grid;;
+  height: 500px;
+  width: 100%;
 }
 .darkButton{
-  background-color: grey;
+  background-color: rgb(133,175,107);
   color: white;
+  display: inline-block;
   font-size: 14px;
+  height: 80px;
+  width: 80px;
+}
+.displayWindow{
+  background-color: rgb(133,175,107);
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  text-align: right;
+  vertical-align: middle;
+  width: 246px;
 }
 .lightButton{
   background-color: rgb(155, 189, 133);
   color: white;
+  display: inline-block;
   font-size: 14px;
-
+  height: 80px;
+  width: 80px;
 }
