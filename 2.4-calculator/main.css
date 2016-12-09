@@ -1,39 +1,52 @@
-/*.body{
-  display: inline-block;
-  background-color: black;
-  width: 50%;
-}*/
+.body{
+  background-color: white;
+}
 .bodyDetails{
-  display: inline-grid;;
-  height: 500px;
-  width: 100%;
+  box-sizing: border-box;
+  height: 400px;
+  width: 320px;
 }
 .darkButton{
-  background-color: rgb(133,175,107);
+  background-color: rgb(120,175,96);
+  border-bottom-style: solid;
+  border-color: rgb(172,207,158);
+  border-right-style: solid;
+  border-width: 1px;
   color: white;
   display: inline-block;
-  font-size: 14px;
+  font-size: 24px;
   height: 80px;
+  margin-right: -4px;
   width: 80px;
 }
 .displayWindow{
-  background-color: rgb(133,175,107);
+  background-color: rgb(120,175,96);
+  border-bottom-style: solid;
+  border-color: rgb(172,207,158);
+  border-left-style: solid;
+  border-width: 1px;
   box-sizing: border-box;
   color: white;
   display: inline-block;
-  font-size: 14px;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  height: 80px;
   margin: 0;
-  padding-bottom: 4%;
-  padding-top: 4%;
+  padding-top: 8%;
   text-align: right;
-  vertical-align: middle;
-  width: 246px;
+  vertical-align: top;
+  width: 240px;
 }
 .lightButton{
-  background-color: rgb(155, 189, 133);
-  color: white;
+  background-color: rgb(145, 191, 127);
+  border-color: rgb(172,207,158);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(75,100,66);
   display: inline-block;
-  font-size: 14px;
+  font-size: 24px;
   height: 80px;
+  margin: 0px;
   width: 80px;
 }
