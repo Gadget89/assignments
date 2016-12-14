@@ -1,0 +1,13 @@
+/* Main CSS*/
+.body {
+  background-color: lightgrey;
+}
+.New {
+  background-color: white;
+  padding: 20px;
+  width: 40%;
+}
+.Title {
+  margin: 0;
+  padding: 5px;
+}
