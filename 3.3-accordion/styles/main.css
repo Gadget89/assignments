@@ -4,18 +4,20 @@
 }
 .itemList__item{
   background-color: rgb(236,236,236);
+  border-width: thin;
+  border-style: solid;
   height: 45px;
   overflow: hidden;
   padding-left: 15px;
   padding-right: 15px;
-  width: 40%;
+  width: 60%;
 }
 .expand{
-  height: 200px;
+  height: 250px;
+  background-color: white;
 }
 .mainTitle{
   background-color: rgb(236,236,236);
-  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }

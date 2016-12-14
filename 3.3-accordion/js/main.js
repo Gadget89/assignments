@@ -1,9 +1,15 @@
 // Main JS //
+// This is an anonymous function that is called when all DOM elements have been loaded
 $(function(){
-  var $itemElements = $("[data-js='item']");
-  $itemElements.on("click", function(e){
-    var $clickedItem = $(this);
-    $itemElements.filter(".expand").removeClass("expand");
-    $clickedItem.addClass("expand");
+  // This is a reference for the sections
+  var $sectionElements = $("[data-js='listItem']");
+  // This is a reference listener
+  $sectionElements.on("click", function(e){
+    // This finds the the section that has been clicked
+    var $clickedSection = $(this);
+    // This removes class of expand
+    $sectionElements.filter(".expand").removeClass("expand");
+    // This will expand the element
+    $clickedSection.addClass("expand");
   });
 });
