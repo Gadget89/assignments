@@ -1,1 +1,21 @@
 /* Main CSS */
+.body{
+  background-color: rgb(246,246,246);
+}
+.itemList__item{
+  background-color: rgb(236,236,236);
+  height: 45px;
+  overflow: hidden;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 40%;
+}
+.expand{
+  height: 200px;
+}
+.mainTitle{
+  background-color: rgb(236,236,236);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
