@@ -1,1 +1,22 @@
-/* Main CSS
+/* Main CSS */
+.addButton {
+  border-style: none;
+  color: rgb(255, 255,255);
+  background-color: rgb(141, 193,126);
+}
+.body {
+  background-color: rgb(245,245,245);
+}
+.main {
+  background-color: rgb(255, 255,255);
+  height: 300px;
+  margin: auto 100px;
+  width: 500px;
+}
+.title {
+  margin: auto 50px;
+}
+/*.postForm {
+  background-color: rgb(255,255,255);
+  width: 500px;
+}*/
