@@ -10,11 +10,22 @@ $(function() {
     e.preventDefault();
     var textAreaValue = $textArea.val();
 
-    var $newItem =$("<p>")
+    var $newItem = $("<p>")
       .text(textAreaValue)
+      .attr({
+        class: "inputText"
+      })
     ;
+    var $checkButton = $("<button>")
+      .attr({
+        class: "checkButton",
+        type: "button",
+        value: "line",
+        onclick: "lineThrough"
+      });
 
     var $articleHTML = $("<article>")
+      .append($checkButton)
       .append($newItem)
     ;
 

@@ -1,20 +1,48 @@
 /* Main CSS */
+* {
+  box-sizing: border-box;
+}
 .addButton {
   border-style: none;
   color: rgb(255, 255,255);
   background-color: rgb(141, 193,126);
+  font-size: 40px;
+  height: 100px;
+  vertical-align: top;
+  width: 10%;
 }
 .body {
   background-color: rgb(245,245,245);
+  font-family: sans-serif;
+}
+.checkButton {
+  border-radius: 50px;
+  display: inline;
+  height: 25px;
+  width: 25px;
+}
+.inputText {
+  display: inline-block;
+  height: 40px;
 }
 .main {
   background-color: rgb(255, 255,255);
-  height: 300px;
-  margin: auto 100px;
-  width: 500px;
+  /* The height will need to be auto to expand as list grows */
+  height: auto;
+  margin: auto;
+  width: 70%;
+}
+.postForm__text {
+  color: rgb(41,41,41);
+  font-size: 40px;
+  height: 100px;
+  width: 89%;
 }
 .title {
+  text-align: center;
   margin: auto 50px;
+  color: rgb(99,91,84);
+  font-weight: lighter;
 }
 /*.postForm {
   background-color: rgb(255,255,255);
