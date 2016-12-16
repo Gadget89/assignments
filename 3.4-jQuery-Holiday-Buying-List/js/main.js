@@ -13,7 +13,7 @@ $(function() {
     var $newItem = $("<p>")
       .text(textAreaValue)
       .attr({
-        class: "inputText"
+        class: "inputText",
       })
     ;
     var $checkButton = $("<button>")
