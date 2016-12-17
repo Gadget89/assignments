@@ -17,7 +17,7 @@
 }
 .checkButton {
   background-color: rgb(255, 255,255);
-  border: solid blue 1px;
+  border: solid rgb(236,236,236) 1px;
   border-radius: 50%;
   display: inline-block;;
   height: 25px;
