@@ -9,24 +9,33 @@ $(function() {
   $submitButton.on("click", function(e){
     e.preventDefault();
     var textAreaValue = $textArea.val();
+    var textAreaArray = textAreaValue.split(",");
+    var textOnly = textAreaArray [0];
+    var priceOnly = textAreaArray [1];
 
     var $newItem = $("<p>")
-      .text(textAreaValue)
+      .text(textOnly)
       .attr({
         class: "inputText",
       })
     ;
+    var $newItemPrice = $("<p>")
+      .text("$" + priceOnly)
+      .attr({
+        class: "inputPrice"
+      })
+
     var $checkButton = $("<button>")
       .attr({
         class: "checkButton",
         type: "button",
         value: "line",
-        onclick: "lineThrough"
       });
 
     var $articleHTML = $("<article>")
       .append($checkButton)
       .append($newItem)
+      .append($newItemPrice)
     ;
 
     $postsElement.prepend($articleHTML)
