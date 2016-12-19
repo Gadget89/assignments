@@ -17,6 +17,7 @@
   margin-left: 50px;
 }
 .body {
+  background-color: rgb(236,236,236);
   font-family: monospace;
   margin: 0;
 }
@@ -37,8 +38,9 @@
 }
 .rows {
   display: flex;
-  margin-left: 33%;
+  margin-left: auto;
   margin-right: auto;
+  width: 500px;
 }
 .title__div {
   display: inline-block;
