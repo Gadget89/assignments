@@ -1,7 +1,32 @@
 /* Main CSS */
+* {
+  box-sizing: border-box;
+}
+.album__title {
+  background-color: grey;
+  border-style: solid;
+  border-top: 0;
+  display: inline-block;
+  height: 50px;
+  margin: 0 10px 0 10px;
+  text-align: center;
+  width: 150px;
+}
+.article {
+  /*display: inline-block;*/
+  margin-left: 50px;
+}
 .body {
   font-family: monospace;
   margin: 0;
+}
+.image__cover {
+  border-style: solid;
+  display: inline;
+  height: 150px;
+  margin-bottom: 0px;
+  margin: 20px 10px 0px 10px;
+  width: 150px;
 }
 .header {
   background-color: rgb(51,51,51);
@@ -9,4 +34,12 @@
   padding: 5px 0px 5px 0px;
   text-align: center;
   vertical-align: middle;
+}
+.rows {
+  display: flex;
+  margin-left: 33%;
+  margin-right: auto;
+}
+.title__div {
+  display: inline-block;
 }
