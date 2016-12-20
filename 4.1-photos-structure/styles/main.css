@@ -67,9 +67,10 @@
   width: 500px;
 }
 .showImage {
+  border-style: solid;
   display: inline-block;
   height: 500px;
-  margin-left: auto;
+  margin-left: 300px;
   margin-right: auto;
   width: 500px;
 }
