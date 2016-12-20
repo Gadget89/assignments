@@ -18,9 +18,11 @@
 }
 .asideButtons {
   padding-top: 200px;
+  margin: 0px;
 }
 .asideSection {
   background-color: rgb(51,51,51);
+  display: inline-block;
   margin: 0;
   width: 150px;
   height: 750px;
@@ -54,6 +56,19 @@
 }
 .rows {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+.rowsNew {
+  display: inline-flex;;
+  float: right;
+  margin-right: 30%;
+  width: 500px;
+}
+.showImage {
+  display: inline-block;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
   width: 500px;
