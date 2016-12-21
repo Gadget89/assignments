@@ -5,7 +5,6 @@
 .album__title {
   background-color: grey;
   border-style: solid;
-  border-top: 0;
   display: inline-block;
   height: 50px;
   margin: 0 10px 0 10px;
@@ -13,7 +12,6 @@
   width: 150px;
 }
 .article {
-  /*display: inline-block;*/
   margin-left: 50px;
 }
 .asideButtons {
@@ -55,8 +53,9 @@
 }
 .main {
   float: right;
-  margin-top: 150px;
+  margin-top: 100px;
   margin-right: 30%;
+  text-align: center;
 }
 .modalDescription {
   display: inline-block;
