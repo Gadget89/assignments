@@ -1,0 +1,52 @@
+.body{
+  background-color: white;
+}
+.bodyDetails{
+  box-sizing: border-box;
+  height: 400px;
+  width: 320px;
+}
+.darkButton{
+  background-color: rgb(120,175,96);
+  border-bottom-style: solid;
+  border-color: rgb(172,207,158);
+  border-right-style: solid;
+  border-width: 1px;
+  color: white;
+  display: inline-block;
+  font-size: 24px;
+  height: 80px;
+  margin-right: -4px;
+  width: 80px;
+}
+.displayWindow{
+  background-color: rgb(120,175,96);
+  border-bottom-style: solid;
+  border-color: rgb(172,207,158);
+  border-left-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  height: 80px;
+  margin: 0;
+  padding-top: 8%;
+  text-align: right;
+  vertical-align: top;
+  width: 240px;
+}
+.lightButton{
+  background-color: rgb(145, 191, 127);
+  border-color: rgb(172,207,158);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(75,100,66);
+  display: inline-block;
+  font-size: 24px;
+  height: 80px;
+  margin: 0px;
+  width: 80px;
+}

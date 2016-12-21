@@ -1,0 +1,22 @@
+{
+  "name": "assignments",
+  "version": "1.0.0",
+  "description": "4.3 -refactor-calculator Initail Checklist - [ ] Make checklist - [ ] Make a director 4.3 refactor calculator - [ ] Copy files from 2.4 calculator - [ ] Initialize npm: npm init in bash - [ ] Install webpack: npm install webpack --save-dev - [ ] Install jquery: npm install jquery --save - [ ] Create webpack.config.js in repo - [ ] Look up module.exports code placing webpack.config.js         locate in 4.3 refactor calculator repo - [ ] Create git ignore: touch .gitignore - [ ] Go into atom and add: .DS_Store and node_modules - [ ] Create second js file inside js directory - [ ] Commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gadget89/assignments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gadget89/assignments/issues"
+  },
+  "homepage": "https://github.com/Gadget89/assignments#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
