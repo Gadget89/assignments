@@ -2,10 +2,123 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Album</title>
+    <link
+      rel="stylesheet"
+      href="styles/main.css">
     <script src="dist/bundle.js" charset="utf-8"></script>
   </head>
-  <body>
-
+  <!-- This is the album portion of the HTML -->
+  <body class="body">
+    <section class="asideSection">
+      <div class="asideButtons">
+        <button class="navButton" type="button" name="button">Album 1</button>
+        <button class="navButton" type="button" name="button">Album 2</button>
+        <button class="navButton" type="button" name="button">Album 3</button>
+        <button class="navButton" type="button" name="button">Album 4</button>
+        <button class="navButton" type="button" name="button">Album 5</button>
+        <button class="navButton" type="button" name="button">Album 6</button>
+      </div>
+    </section>
+    <main
+      class="main">
+      <h1>Album Number</h1>
+      <!-- This is the first row of albums -->
+      <section
+        class="rows">
+        <article class="">
+          <img
+            class="image__cover"
+            src="assets/cave.jpg"
+            alt="Cave by the beach">
+            <br>
+            <p
+              class="album__title">
+              Photo 1
+            </p>
+        </article>
+        <article class="">
+          <img
+            class="image__cover"
+            src="assets/greenHouse.jpg"
+            alt="A big green house">
+            <br>
+            <p
+              class="album__title">
+              Photo 2
+            </p>
+        </article>
+        <article class="">
+          <img
+            class="image__cover"
+            src="assets/nightSky.jpg"
+            alt="The night sky">
+            <br>
+            <p
+              class="album__title">
+              Photo 3
+            </p>
+        </article>
+      </section>
+      <!-- This is the second row of albums -->
+      <section
+        class="rows">
+        <article class="">
+          <img
+            class="image__cover"
+            src="assets/oceanRoad.jpg"
+            alt="A road by the ocean">
+            <br>
+            <p
+              class="album__title">
+              Photo 4
+            </p>
+        </article>
+        <article class="">
+          <img
+            class="image__cover"
+            src="assets/pinkSky.jpg"
+            alt="A pink sky">
+            <br>
+            <p
+              class="album__title">
+              Photo 5
+            </p>
+        </article>
+        <article class="">
+          <img
+            class="image__cover"
+            src="assets/spacePort.jpg"
+            alt="Alien landing pad">
+            <br>
+            <p
+              class="album__title">
+              Photo 6
+            </p>
+        </article>
+      </section>
+    </main>
+  </body>
+<!-- This is the where the modal portion of the HTML is located -->
+  <body
+    class="body">
+    <header>
+      <button
+        class="backButton"
+        type="button"
+        name="button">
+        Back to Album
+      </button>
+      <h1
+        class="modalDescription">
+        Photo
+      </h1>
+    </header>
+    <main>
+      <img
+        class="showImage"
+        src=""
+        alt="">
+    </main>
   </body>
 </html>
