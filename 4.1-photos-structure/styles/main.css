@@ -36,6 +36,24 @@
   font-family: monospace;
   margin: 0;
 }
+/*.hiddenModal {
+  display: none;*/
+}
+.notHidden {
+  width: 350px;
+  height: 350px;
+  z-index: 1;
+  position: fixed;
+  padding-left: 165px;
+  padding-top: 75px;
+  margin-top: -180px;
+  margin-left: 100px;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+.hide {
+  display: none;
+}
 .image__cover {
   border-style: solid;
   display: inline;
