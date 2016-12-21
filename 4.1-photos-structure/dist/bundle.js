@@ -44,7 +44,9 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	
+	// Main JS
+	console.log("itworks");
+
 
 /***/ }
 /******/ ]);
