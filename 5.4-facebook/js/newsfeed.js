@@ -30,6 +30,16 @@ export default React.createClass({
           <p className="post_content">
             Learn more about this new tool for publishers at <a href="#" className="fb_blue">instantarticles.fb.com.</a>
           </p>
+          <div className="user_interaction_section">
+            <button
+              className="like_button">
+              Like
+            </button>
+            <button
+              className="comment_button">
+              Commment
+            </button>
+          </div>
         </div>
       </section>
     </main>
