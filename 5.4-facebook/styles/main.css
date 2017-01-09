@@ -1,14 +1,29 @@
 /* Main CSS */
+.author_info {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-top: 16px;
+}
 .author_profile_image {
   border-color: rgb(221, 223, 226);
   border-style: solid;
+  border-width: thin;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 50px;
 }
 .article_publish_date {
   color: rgb(144, 148, 156);
+  display: inline-block;
+  margin-top: 5px;
 }
 .author_profile_name {
   color: rgb(54, 88, 159);
   display: inline-block;
+  font-weight: bold;
+  margin-top: 0;
   text-decoration: none;
 }
 .fb_blue {
@@ -22,4 +37,9 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.post_content {
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 10;
 }
