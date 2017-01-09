@@ -1,0 +1,25 @@
+/* Main CSS */
+.author_profile_image {
+  border-color: rgb(221, 223, 226);
+  border-style: solid;
+}
+.article_publish_date {
+  color: rgb(144, 148, 156);
+}
+.author_profile_name {
+  color: rgb(54, 88, 159);
+  display: inline-block;
+  text-decoration: none;
+}
+.fb_blue {
+  color: rgb(54, 88, 159);
+  text-decoration: none;
+}
+.main {
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgb(233, 235, 238);
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
