@@ -26,6 +26,27 @@
   margin-top: 0;
   text-decoration: none;
 }
+.commenter_author_profile_name {
+  display: inline-block;
+}
+.commenter_post {
+  background-color: rgb(246, 247, 249);
+  display: inline-block;
+}
+.commenter_post_content {
+  display: block;
+  float: right;
+  vertical-align: top;
+  margin-left: 5px;
+  margin-top: 5px;
+
+}
+.commenter_publish_date {
+  color: rgb(144, 148, 156);
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 5px;
+}
 .comment_button {
   background-color: white;
   border: none;
