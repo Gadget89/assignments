@@ -17,6 +17,13 @@ $(function(){
   var modalImg = $body.find("[data-js='modalImg']");
 
   //Click event on photo elements variable
+  var $clickedThumbnailContainerElements = $(this);
+    var $clickedThumbnailImageElements = $clickedThumbnailContainerElements.find("[data-js='modalImg']")
+    var sourceOfClickedThumbnailImage = $clickedThumbnailImageElements.attr("src");
+    var altOfClickedThumbnailImage = $clickedThumbnailImageElements.attr("alt");
+
+    $modalImgElement.attr("src", sourceOfClickedThumbnailImage);
+    $modalImgElement.attr("alt", altOfClickedThumbnailImage);
   //Inside of click event open modal
   $button1.on("click", function(e){
     $modal.removeClass("hide");

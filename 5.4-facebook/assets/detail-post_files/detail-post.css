@@ -1,0 +1,59 @@
+/* Detail post CSS*/
+*{
+  box-sizing: border-box;
+}
+.detail_post_back_button {
+  background-color: rgb(216, 136, 38);
+  color: white;
+  display: inline-block;
+  height: 30px;
+  width: 80px;
+  font-size: 13px;
+  font-weight: bolder;
+  vertical-align: middle;
+  /*margin-top: 50px;*/
+  margin-right: 20px;
+  border-radius: 4px;
+  transform: translateY(3px);
+
+}
+.detail_post_content {
+  background-color: grey;
+  border-radius: 8px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 10px;
+  width: 50%;
+}
+.detail_post_img {
+  border-radius: 8px;
+  display: inline-block;
+  margin-left: 25%;
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 50%;
+}
+.detail_post_info {
+  background-color: black;
+  border-radius: 8px;
+  color: rgb(26, 145, 169);
+  margin-top: 10px;
+  opacity: 0.8;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.detail_post_wrapper {
+  background-image: url("http://4.bp.blogspot.com/-H0IW7YOY23w/UQMjnwLdL6I/AAAAAAAAAIc/NXQ9ynFuhPA/s1600/NBA+court.jpg");
+  border: none;
+  height: 1000px;
+  margin: 0px;
+  width: 100%;
+}
+.post_info {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
