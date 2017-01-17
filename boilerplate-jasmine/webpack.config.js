@@ -4,7 +4,6 @@ module.exports = {
   output: {
     path: "dist",
     filename: "bundle.js"
-  }
 },
 module: {
   loaders: [
@@ -14,4 +13,5 @@ module: {
       loader: 'babel-loader?presets[]=es2015&presets[]=react'
     }
   ]
+}
 }
