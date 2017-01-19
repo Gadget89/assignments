@@ -10,7 +10,7 @@ render(
     <Router history={hashHistory}>
       <Route component={ App }>
         <Route path="/" component={ Home } />
-        <Route path="/Details" component={ Details } />
+        <Route path="/Details/:name/:email/:phone/:location" component={ Details } />
       </Route>
     </Router>
   ),

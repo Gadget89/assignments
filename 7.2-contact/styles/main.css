@@ -2,8 +2,6 @@
 * {
   box-sizing: border-box;
 }
-.nav_button {
-  background-color: lightgrey;
-  text-decoration: none;
-
+.user_list {
+  display: block;
 }
