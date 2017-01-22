@@ -16,13 +16,14 @@ export default React.createClass({
   onSubmit(e){
     e.preventDefault()
     var CardValid = this.state.isCreditCardValid;
+
     // need to set state here and return with if statement maybe?
   },
   render() {
     return(
       <section>
-        <form className={this.state.isCreditCardValid ? "valid" : "invalid"}>
-          <input type="text" onChange={this.onCardChange} />
+        <form>
+          <input className={this.state.isCreditCardValid ? "valid" : "invalid"} type="text" onChange={this.onCardChange} />
           <input type="submit"/>
         </form>
       </section>
