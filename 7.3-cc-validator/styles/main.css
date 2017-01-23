@@ -1,8 +1,8 @@
 /* Main CSS */
-.invalid input {
-  border-color: red;
+.invalid {
+  color: red;
 }
 
-.valid input {
-  border-color: green;
+.valid {
+  color: green;
 }
