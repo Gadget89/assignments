@@ -1,1 +1,34 @@
 /* main css */
+* {
+  box-sizing: border-box;
+}
+.nav_img {
+  width: 1500px;
+  margin-top: 10px;
+}
+.nav_img_wrapper {
+  height: 200px;
+  position: relative;
+  width: 478px;
+}
+.nav_img_text {
+  position: absolute;
+  font-size: 40px;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  color: white;
+  margin-top: 14%;
+}
+.nav_link {
+  color: rgb(104, 110, 117);
+  font-size: 22px;
+  font-weight: 300;
+  margin-left: 16px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.header_wrapper {
+  width: 478px;
+  height: 250px;
+  overflow: hidden;
