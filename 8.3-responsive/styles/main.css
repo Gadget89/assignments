@@ -205,4 +205,48 @@ body {
       position: relative;
       width: 48em;
     }
+    @media only screen and (min-width: 61em) {
+        /* Style adjustments for viewports that meet the condition */
+        .ad_wrapper {
+          display: inline-block;
+          margin-top: 40px;
+          padding-left: 12px;
+          width: 20em;
+          text-align: center;
+        }
+        .footer {
+          background-color: black;
+          color: grey;
+          font-size: 20px;
+          height: 115px;
+          padding: 12px 34px;
+          text-align: center;
+          width: 70em;
+        }
+        .header_wrapper {
+          width: 70em;
+          height: 250px;
+          overflow: hidden;
+        }
+        .more_info {
+          display: inline-block;
+          margin-top: 10px;
+          width: 24em;
+          padding: 24px;
+          font-size: 16px;
+        }
+        .nav_img_text {
+          position: absolute;
+          font-size: 40px;
+          vertical-align: middle;
+          text-align: center;
+          width: 133%;
+          color: white;
+          margin-top: 9%;
+        }
+        .nav_img_wrapper {
+          height: 220px;
+          position: relative;
+          width: 48em;
+        }
 }
