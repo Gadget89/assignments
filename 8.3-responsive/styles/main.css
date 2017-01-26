@@ -4,6 +4,7 @@
 }
 body {
   font-family: sans-serif;
+  margin: 0;
 }
 .ad_title1 {
   background-color: rgb(81, 146, 81);
@@ -74,6 +75,9 @@ body {
 .footer_anchor {
   color: white;
 }
+.nav {
+  margin-top: 10px;
+}
 .nav_img {
   width: 1500px;
   margin-top: 10px;
@@ -119,6 +123,9 @@ body {
   height: 250px;
   overflow: hidden;
 }
+.main_wrapper {
+  width: 200px;
+}
 .more_info {
   margin-top: 20px;
   width: 478px;
@@ -131,4 +138,28 @@ body {
 .more_info_text {
   font-weight: 550;
   opacity: .7;
+}
+/*======================================================*/
+@media only screen and (min-width: 768px) {
+    /* Style adjustments for viewports that meet the condition */
+    .ad_wrapper {
+      margin-top: 40px;
+      padding-left: 12px;
+      width: 700px;
+      text-align: center;
+    }
+    .footer {
+      background-color: black;
+      color: grey;
+      font-size: 20px;
+      height: 115px;
+      padding: 12px 34px;
+      text-align: center;
+      width: 700px;
+    }
+    .nav_img_wrapper {
+      height: 200px;
+      position: relative;
+      width: 700px;
+    }
 }
