@@ -22,9 +22,6 @@ $(function(){
     var sourceOfClickedThumbnailImage = $clickedThumbnailImageElements.attr("src");
     var altOfClickedThumbnailImage = $clickedThumbnailImageElements.attr("alt");
 
-    $modalImgElement.attr("src", sourceOfClickedThumbnailImage);
-    $modalImgElement.attr("alt", altOfClickedThumbnailImage);
-  //Inside of click event open modal
   $button1.on("click", function(e){
     $modal.removeClass("hide");
     $albumPage.addClass("hide");
